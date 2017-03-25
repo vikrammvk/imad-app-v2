@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
 var counter=0;
 app.get('/count',function (req,res)
         {
-  alert(req);
+  
   counter=counter+1;
   res.send(counter.toString()); });
 app.get('/ui/style.css', function (req, res) {
