@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile('resume.html'));
 });
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'sample.html'));
+  res.sendFile(path.join(__dirname, '/', 'resume.html'));
 });
 var counter=0;
 app.get('/count',function (req,res)
